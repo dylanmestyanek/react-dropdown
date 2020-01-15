@@ -113,7 +113,7 @@ class Dropdown extends Component {
 
     return (
       <div
-        key={value}
+        key={label}
         className={optionClass}
         onMouseDown={this.setValue.bind(this, value, label)}
         onClick={this.setValue.bind(this, value, label)}
